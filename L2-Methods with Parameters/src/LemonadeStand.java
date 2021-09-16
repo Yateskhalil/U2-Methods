@@ -1,4 +1,4 @@
-import javax.swing.*;
+/*import javax.swing.*;
 import java.text.DecimalFormat;
 
 
@@ -12,7 +12,7 @@ public class LemonadeStand {
         int num16 = Integer.parseInt(JOptionPane.showInputDialog("How many 16 0z lemonades "));
         int num20 = Integer.parseInt(JOptionPane.showInputDialog("How many 20 0z lemonades "));
 
-        calculateCost(int num16, int num20);
+        calculateCost(int num16,int num20);
 
 
         System.exit(0);
@@ -30,12 +30,12 @@ public class LemonadeStand {
             double total= total16+total20;
 
             String message= "your order : \n";
-            message += "\n 16oz:  "+round.format(num16);
+            message += "\n 16oz: "+round.format(num16);
             message += "\n 20oz: "+ round.format(num20);
-            message += "\n total"+ round.format(total);
+            message += "\n total "+ round.format(total);
 
         }
-
+/*
 
 
 

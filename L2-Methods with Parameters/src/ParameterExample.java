@@ -2,6 +2,7 @@ import javax.swing.*;
 
 public class ParameterExample {
 
+
     public static void main(String[] args) {
         double width = Double.parseDouble(JOptionPane.showInputDialog("What is the width?"));
         double length = Double.parseDouble(JOptionPane.showInputDialog("What is the length"));
