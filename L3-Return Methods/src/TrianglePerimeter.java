@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.text.DecimalFormat;
-
+/*
 public class TrianglePerimeter {
 /*
 1.get input-x1,y1,x2,y2,x3,y3
@@ -8,9 +8,9 @@ public class TrianglePerimeter {
 3.Calculate perimeter
 4.display rounded 2 decimal answer
 
- */
 
 
+/*
     public static void main(String[] args) {
 
     int x1= input ("Point 1, x-corrdianate ");
@@ -65,7 +65,7 @@ public class TrianglePerimeter {
 
 
 
-/*
+
     Create a program which when given three coordinates of a triangle, calculates the perimeter.
 
     (2,3) , (5, 7) , (-2, 8) -> 18.47
